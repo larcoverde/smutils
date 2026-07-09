@@ -3,6 +3,16 @@
 #include <stdio.h>
 #include <string.h>
 
+void help_help()
+{
+    printf("SMU - help\n");
+    printf("version 1.5\n");
+    printf("display help message for smu programs.\n");
+    printf("usage:\n");
+    printf("      help <program>\n");
+    printf("source code -> smutils/src/smu-help.c");
+}
+
 void help_clear()
 {
     printf("SMU - clear\n");
@@ -31,12 +41,19 @@ void help_getmem()
 
 int main(int argc, char **argv)
 {
-    char *program = argv[1];
-    
-    if (strcmp(program, "clear") == 0)
-        help_clear();
-    else if (strcmp(program, "getmem") == 0)
-        help_getmem();
+    if (argc > 1)
+    {
+        char *program = argv[1];
+        if (strcmp(program, "clear") == 0)
+            help_clear();
+        else if (strcmp(program, "getmem") == 0)
+            help_getmem();
+    }
+    else
+    {
+        help_help();
+        return 0;
+    }
 
     return 0;
 }
