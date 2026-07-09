@@ -9,7 +9,7 @@ void help_clear()
     printf("version 1.0\n");
     printf("clear console screen.\n");
     printf("usage:\n");
-    printf("      smu-clear\n");
+    printf("      clear\n");
     printf("source code -> smutils/src/smu-clear.c");
 }
 
