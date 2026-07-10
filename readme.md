@@ -1,3 +1,3 @@
 # smutils - some utils
 
-utility binaries for linux in C.
+utility binaries for linux in C. (learning purposes)
