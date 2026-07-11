@@ -4,10 +4,17 @@
 
 int main(int argc, char**argv)
 {
-    char *path = argv[1];
+    char *path;
+    if (!argv[1])
+        path = ".";
+    else
+        path = argv[1];
     DIR *dir = opendir(path);
     if (!dir)
-        printf("error");
+    {
+        perror("opendir");
+        return 1;
+    }
     return 0;
 }
 
