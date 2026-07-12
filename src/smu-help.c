@@ -39,6 +39,17 @@ void help_getmem()
     printf("source code -> smutils/src/smu-getmem.c");
 }
 
+void help_ls()
+{
+    printf("SMU - ls\n");
+    printf("version 1.0\n");
+    printf("list directory content.\n");
+    printf("usage:\n");
+    printf("      ls <dir>\n\n");
+    printf("      if no directory its provided, it uses the current directory.\n\n");
+    printf("source code -> smutils/src/smu-ls.c");
+}
+
 int main(int argc, char **argv)
 {
     if (argc > 1)
@@ -48,6 +59,8 @@ int main(int argc, char **argv)
             help_clear();
         else if (strcmp(program, "getmem") == 0)
             help_getmem();
+        else if (strcmp(program, "ls") == 0)
+            help_ls();
     }
     else
     {
