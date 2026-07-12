@@ -50,6 +50,18 @@ void help_ls()
     printf("source code -> smutils/src/smu-ls.c");
 }
 
+void help_mkfile()
+{
+    printf("SMU - mkfile\n");
+    printf("version 1.1\n");
+    printf("create a new file.\n");
+    printf("usage:\n");
+    printf("      mkfile <file_name> <flag> <text>\n");
+    printf("      flags:\n");
+    printf("            -i  --insert     insert text in the file.\n\n");
+    printf("source code -> smutils/src/smu-mkfile.c");
+}
+
 int main(int argc, char **argv)
 {
     if (argc > 1)
