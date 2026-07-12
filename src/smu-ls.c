@@ -15,6 +15,12 @@ int main(int argc, char**argv)
         perror("opendir");
         return 1;
     }
+
+    struct dirent *ent;
+    while ((ent = readdir(dir)) != NULL)
+        printf("%s\n", ent->d_name);
+
+    closedir(dir);
     return 0;
 }
 
