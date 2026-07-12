@@ -10,4 +10,5 @@ install:
 	$(CC) $(CFLAGS) -o smu-clear src/smu-clear.c
 	$(CC) $(CFLAGS) -o smu-getmem src/smu-getmem.c
 	$(CC) $(CFLAGS) -o smu-help src/smu-help.c
+	$(CC) $(CFLAGS) -o smu-ls src/smu-ls.c
 
