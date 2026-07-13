@@ -19,6 +19,9 @@ install:
 	$(CC) $(CFLAGS) -o smu-ls src/smu-ls.c
 	@mv smu-ls /usr/local/bin/
 
-	$(CC) %(CFLAGS) -o smu-mkfile src/smu-mkfile.c
+	$(CC) $(CFLAGS) -o smu-mkfile src/smu-mkfile.c
 	@mv smu-mkfile /usr/local/bin/
+
+	$(CC) $(CFLAGS) -o smu-mkdir src/smu-mkdir.c
+	@mv smu-mkdir /usr/local/bin/
 
