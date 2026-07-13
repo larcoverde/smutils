@@ -62,6 +62,16 @@ void help_mkfile()
     printf("source code -> smutils/src/smu-mkfile.c");
 }
 
+void help_mkdir()
+{
+    printf("SMU - mkdir\n");
+    printf("version 1.0\n");
+    printf("create a new directory.\n");
+    printf("usage:\n");
+    printf("      mkdir <dir_name>\n\n");
+    printf("source code -> smutils/src/smu-mkdir.c");
+}
+
 int main(int argc, char **argv)
 {
     if (argc > 1)
