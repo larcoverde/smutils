@@ -83,6 +83,10 @@ int main(int argc, char **argv)
             help_getmem();
         else if (strcmp(program, "ls") == 0)
             help_ls();
+        else if (strcmp(program, "mkfile") == 0)
+            help_mkfile();
+        else if (strcmp(program, "mkdir") == 0)
+            help_mkdir();
     }
     else
     {
