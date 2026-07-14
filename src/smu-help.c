@@ -72,6 +72,16 @@ void help_mkdir()
     printf("source code -> smutils/src/smu-mkdir.c");
 }
 
+void help_view()
+{
+    printf("SMU - view\n");
+    printf("version 1.0\n");
+    printf("print file content.\n");
+    printf("usage:\n");
+    printf("      view <file_name>\n\n");
+    printf("source code -> smutils/src/smu-view.c");
+}
+
 int main(int argc, char **argv)
 {
     if (argc > 1)
@@ -87,6 +97,8 @@ int main(int argc, char **argv)
             help_mkfile();
         else if (strcmp(program, "mkdir") == 0)
             help_mkdir();
+        else if (strcmp(program, "view") == 0)
+            help_view();
     }
     else
     {
