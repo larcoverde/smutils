@@ -9,7 +9,7 @@ void help_help()
     printf("version 1.5\n");
     printf("display help message for smu programs.\n");
     printf("usage:\n");
-    printf("      help <program>\n");
+    printf("      shelp <program>\n");
     printf("source code -> smutils/src/smu-help.c");
 }
 
@@ -19,7 +19,7 @@ void help_clear()
     printf("version 1.0\n");
     printf("clear console screen.\n");
     printf("usage:\n");
-    printf("      clear\n");
+    printf("      sclear\n");
     printf("source code -> smutils/src/smu-clear.c");
 }
 
@@ -29,7 +29,7 @@ void help_getmem()
     printf("version 1.1\n");
     printf("display memory information.\n");
     printf("usage:\n");
-    printf("      getmem <flag>\n");
+    printf("      sgetmem <flag>\n");
     printf("      flags:\n");
     printf("            -t --total        display only total memory.\n");
     printf("            -u --used         display only used memory.\n");
@@ -45,7 +45,7 @@ void help_ls()
     printf("version 1.0\n");
     printf("list directory content.\n");
     printf("usage:\n");
-    printf("      ls <dir>\n\n");
+    printf("      sls <dir>\n\n");
     printf("      if no directory its provided, it uses the current directory.\n\n");
     printf("source code -> smutils/src/smu-ls.c");
 }
@@ -56,7 +56,7 @@ void help_mkfile()
     printf("version 1.1\n");
     printf("create a new file.\n");
     printf("usage:\n");
-    printf("      mkfile <file_name> <flag> <text>\n");
+    printf("      smkfile <file_name> <flag> <text>\n");
     printf("      flags:\n");
     printf("            -i  --insert     insert text in the file.\n\n");
     printf("source code -> smutils/src/smu-mkfile.c");
@@ -68,7 +68,7 @@ void help_mkdir()
     printf("version 1.0\n");
     printf("create a new directory.\n");
     printf("usage:\n");
-    printf("      mkdir <dir_name>\n\n");
+    printf("      smkdir <dir_name>\n\n");
     printf("source code -> smutils/src/smu-mkdir.c");
 }
 
