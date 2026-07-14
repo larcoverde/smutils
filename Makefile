@@ -8,20 +8,20 @@ install:
 # i know im doing this the wrong way, but its all i know about makefile at this moment.
 # later ill improve it.
 	$(CC) $(CFLAGS) -o smu-clear src/smu-clear.c
-	@mv smu-clear /usr/local/bin/
+	@mv sclear /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o smu-getmem src/smu-getmem.c
-	@mv smu-getmem /usr/local/bin/
+	@mv sgetmem /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o smu-help src/smu-help.c
-	@mv smu-help /usr/local/bin/
+	@mv shelp /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o smu-ls src/smu-ls.c
-	@mv smu-ls /usr/local/bin/
+	@mv sls /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o smu-mkfile src/smu-mkfile.c
-	@mv smu-mkfile /usr/local/bin/
+	@mv smkfile /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o smu-mkdir src/smu-mkdir.c
-	@mv smu-mkdir /usr/local/bin/
+	@mv smkdir /usr/local/bin/
 
