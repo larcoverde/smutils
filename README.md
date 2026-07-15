@@ -17,7 +17,7 @@ if you want to try my project, follow these instructions:
    from github:
 
    ```sh
-   git clone https://github.com/arcoverdem/smutils
+   git clone https://github.com/larcoverde/smutils
    ```
 
    or from codeberg:
