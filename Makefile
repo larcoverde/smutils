@@ -25,3 +25,6 @@ install:
 	$(CC) $(CFLAGS) -o smu-mkdir src/smu-mkdir.c
 	@mv smkdir /usr/local/bin/
 
+	$(CC) $(CFLAGS) -o scp src/smu-scp.c
+	@mv scp /usr/local/bin/
+
