@@ -28,3 +28,6 @@ install:
 	$(CC) $(CFLAGS) -o scp src/smu-scp.c
 	@mv scp /usr/local/bin/
 
+	$(CC) $(CFLAGS) -o sview src/smu-view.c
+	@mv sview /usr/local/bin/
+
