@@ -10,8 +10,8 @@ install:
 	$(CC) $(CFLAGS) -o sclear src/smu-clear.c
 	@mv sclear /usr/local/bin/
 
-	$(CC) $(CFLAGS) -o sgetmem src/smu-getmem.c
-	@mv sgetmem /usr/local/bin/
+	$(CC) $(CFLAGS) -o smem src/smu-mem.c
+	@mv smem /usr/local/bin/
 
 	$(CC) $(CFLAGS) -o shelp src/smu-help.c
 	@mv shelp /usr/local/bin/
