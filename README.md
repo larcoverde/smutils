@@ -19,12 +19,7 @@ if you want to try my project, follow these instructions:
    ```sh
    git clone https://github.com/larcoverde/smutils
    ```
-
-   or from codeberg:
-
-   ```sh
-   git clone https://codeberg.org/arcoverde/smutils
-   ```
+   codeberg repository is no longer maintened
 
 2. **compile and install**
 
