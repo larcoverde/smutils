@@ -31,3 +31,7 @@ install:
 	$(CC) $(CFLAGS) -o sview src/smu-view.c
 	@mv sview /usr/local/bin/
 
+	$(CC) $(CFLAGS) -o smv src/smu-mv.c
+	@mv smv /usr/local/bin/
+
+
