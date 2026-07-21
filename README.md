@@ -19,7 +19,7 @@ if you want to try my project, follow these instructions:
    ```sh
    git clone https://github.com/larcoverde/smutils
    ```
-   codeberg repository is no longer maintened
+   codeberg repository is no longer maintened, soon it will be back
 
 2. **compile and install**
 
