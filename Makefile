@@ -7,6 +7,7 @@ install:
 # IMPORTANT
 # i know im doing this the wrong way, but its all i know about makefile at this moment.
 # later ill improve it.
+
 	$(CC) $(CFLAGS) -o sclear src/smu-clear.c
 	@mv sclear /usr/local/bin/
 
