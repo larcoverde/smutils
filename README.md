@@ -38,7 +38,7 @@ if you want to try my project, follow these instructions:
 
 ## docs
 
-visit: https://www.smutils.netlify.app
+visit: https://smutils.netlify.app
 
 ## feedback and contributing
 
