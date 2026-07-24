@@ -36,6 +36,10 @@ if you want to try my project, follow these instructions:
    smu-help
    ```
 
+## docs
+
+visit: https://www.smutils.netlify.app
+
 ## feedback and contributing
 
 if you find this project interesting and would like to help improve it (by requesting features, fixing bugs, or contributing code), feel free to open an issue or submit a pull request. any help is welcome!
